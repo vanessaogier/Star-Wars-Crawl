@@ -2,15 +2,21 @@ body {
   background-image: url(etoile.jpg);
   color: white;
 }
-.lorem {
+.audio {
+}
+.intro {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 6cm;
   /* cosmétique */
-  font-size: 32px;
+  font-size: 64px;
   color: #4bd5ee;
   /* Animation */
   /* Apparition et disparition progressive */
   opacity: 0;
   animation-delay: 1s;
-  animation-duration: 1s;
+  animation-duration: 3s;
   animation-name: lorem;
   animation-timing-function: ease-out;
 }
